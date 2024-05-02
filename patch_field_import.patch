@@ -1,0 +1,16 @@
+diff --git a/venv/lib/python3.10/site-packages/graphene/types/field.py b/venv/lib/python3.10/site-packages/graphene/types/field.py
+index 51a1203..ab2df64 100644
+--- a/venv/lib/python3.10/site-packages/graphene/types/field.py
++++ b/venv/lib/python3.10/site-packages/graphene/types/field.py
+@@ -2,7 +2,7 @@
+ # See the License for the specific language governing permissions and
+ # limitations under the License.
+ 
+-from collections import Mapping, OrderedDict
++from collections.abc import Mapping, OrderedDict
+ 
+ from ..types import Scalar
+ 
+
+ 
+
